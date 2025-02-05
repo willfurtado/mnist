@@ -1,8 +1,19 @@
-# mnist
-MNIST Classification Task via several different deep learning approaches
+## Handwritten Digit Classification (`mnist`)
 
-## TODO
+Deep learning architecture comparison using digit recognition as the learning problem. 
+
+### Architectures
+
+The repository makes use of the following architectures deep learning architectures:
+
+- Feedforward Networks (MLPs)
+- Convolutional Neural Networks (CNNs)
+- Transformer-based Architectures
+
+### Training Techniques (TODO)
+
 - Learning Rate Scheduler
 - Gradient Accumulation
 - Gradient Checkpointing
-- Freezing layers
+- Layer Freezing
+- Knowledge Distillation

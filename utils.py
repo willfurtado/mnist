@@ -18,7 +18,8 @@ def train_model(
     optimizer_cls=optim.Adam,
     device: str = "cpu",
 ) -> Tuple[Callable, ArrayLike, ArrayLike]:
-    """Train a PyTorch model with specified hyperparameters
+    """
+    Train a PyTorch model with specified hyperparameters
 
     Parameters:
         model: Input model to train
@@ -76,9 +77,7 @@ def train_model(
 
         train_loss_history[epoch] = running_loss / len(train_loader.dataset)
 
-        print(
-            f"Train Epoch {epoch + 1}: Average Loss {train_loss_history[epoch]:.4f} "
-        )
+        print(f"Train Epoch {epoch + 1}: Average Loss {train_loss_history[epoch]:.4f} ")
 
         # Put model into evaluation mode
         model.eval()
