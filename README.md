@@ -8,7 +8,7 @@ The repository makes use of the following architectures deep learning architectu
 
 - Feedforward Networks (MLPs)
 - Convolutional Neural Networks (CNNs)
-- Transformer-based Architectures
+- Transformer-based Architectures (ViT)
 
 ### Training Techniques (TODO)
 
